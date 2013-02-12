@@ -1,0 +1,16 @@
+c-9-octubre-2003
+
+Lo que se modifico fue el metodo de borrar ultimo, por que al borrar todos de un pentagrama se sobreponian todas las figuras, lo cual me llevo al error que era de que no se estaba modificando el contador.
+
+c-10-octubre-2003
+
+Lo que se modifico fue el sonido de las notas por ejemplo de la nota Do el de abajo es mas grueso que el de arriba y todas se modifico, y tuvimos que disminuir los niveles.
+
+c-10-octubre-2003(23:02)
+
+Lo que se modifico fue el cambio de estrategia, es decir en vez de utilizar estructuras de datos estaticas empeze a trabajar con estructuras dinamicas o sea con LISTAS para no despediciar memoria porque estaba ocupando un espacio de al rededor de 40000 espacios de memoria, lo que hice ahora fue modificar la clase PanelDibujo en vez de utilizar un arreglo de 100 espacios para manejar los Dibujables lo cambie a Lista, y tambien la clase AdministradorVentanas cambie a listas los siguientes: arch(ArchivoMusical), pos(AdministradorPosicion), notas(AdministradorNotas), todos estos eran arreglos los cambie a listas.
+
+c-18-octubre-2003
+
+Lo que se modifico fue el pentagrama y las figuras, ahora solo se estan colocando fotos ya no estamos dibujando, tambien agrandamos el pentagrama y lo encogimos conforme a las fotos.
+
